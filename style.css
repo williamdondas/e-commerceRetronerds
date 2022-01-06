@@ -69,8 +69,20 @@ footer{
     padding: 11px;
     text-align: center;
     margin:auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 img{
     box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.301);
+}
+.rodape> a{
+color: white;
+border-right-color: rgba(0, 0, 0, 0);
+margin-right: 0px;
+padding: 0px;
+}
+.rodape>a:hover{
+    text-decoration: underline;
+    font-size: 1.1em;
 }
