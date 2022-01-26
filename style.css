@@ -10,7 +10,7 @@ header >h1{
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
     font-size: 3em;
-    background-color: rgba(104, 4, 104, 0.589);
+    background-color: rgb(46, 7, 86);
     color: white;
     text-align: center;
     text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.315);
@@ -19,6 +19,11 @@ header >h1{
    margin-left: 0px;
    margin-right: 0px;
    border-radius: 5px;
+}
+
+header img{
+    width: 220px;
+    height: 180px;
 }
 
 nav{
@@ -58,7 +63,7 @@ main{
     padding: 10px 30px;
     font-size: 1.2em;
     font-family: Arial, Helvetica, sans-serif;
-    text-align: justify;
+    text-align: center;
     border-radius: 6px;
     box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.301);
 }
@@ -73,7 +78,7 @@ footer{
     margin-bottom: 5px;
 }
 
-img{
+main img{
     box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.301);
 }
 .rodape> a{
